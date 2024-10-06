@@ -79,3 +79,11 @@ font-size:14px;
 #name{
 	color:white;
 }
+.main h2:hover{
+	color:hsl(178, 100%, 50%);
+	transition:0.5s;
+}
+#name:hover{
+	color:hsl(178, 100%, 50%);
+	transition:0.5s;
+}
