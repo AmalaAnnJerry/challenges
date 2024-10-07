@@ -4,7 +4,11 @@ body{
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-
+   display:flex;
+	flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+ min-height: 100vh;
 }
 .main{
 	margin-top:60px;
