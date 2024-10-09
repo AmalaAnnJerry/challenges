@@ -1,0 +1,217 @@
+body{
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  min-height:100vh;
+}
+
+.box1{
+	background: linear-gradient(to bottom, #5f3ffc, #472ada, #382fec);
+width:200px;
+	text-align:center;
+	height:280px;
+	color:white;
+	border-radius:7%;
+}
+.box1 h2{
+	font-size:12px;
+	color:#b8aaf4;
+	margin-top:17px;
+}
+
+.box2{
+	border-radius:50%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:100px;
+	height:100px;
+	background:radial-gradient(circle at center top,#4a24cd 3%,#4828d5 13%);
+	color:white;
+	margin-top:20px;
+}
+.box2 h4{
+	font-weight:500;
+	font-size:9px;
+	margin-top:2px;
+	color:#b8aaf4;
+}
+.box2 h2{
+	margin-bottom:0;
+	margin-top:11px;
+	font-size:37px;
+	color:white;
+}
+.box0{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:10px;
+	border:1px solid white;
+	border-radius:5px;
+	box-shadow:10px 10px 10px #f0f4fe;
+	padding-right:15px;
+	padding-left:10px;
+}
+.box3 h3{
+	color:hsl(0, 100%, 67%);
+	font-size:14.5px;
+}
+.box3 h2{
+	font-size:15px;
+	margin-top:0;
+	margin-right:110px;
+}
+#r80{
+	color:black;
+}
+.rscore h3{
+	color:#999596;
+	font-size:14px;
+}
+.Reaction{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:60px;
+	border:1px solid white;
+	background:#fff6f5;
+	height:35px;
+	width:183px;
+	margin-bottom:2px;
+	border-radius:7px;
+	padding-left:7px;
+	padding-right:7px;
+	
+}
+.box3{
+	background:white;
+width:200px;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+padding-left:5px;
+}
+#m92{
+	color:black;
+}
+.mscore h3{
+	color:#999596;
+	font-size:14px;
+	gap:7px;
+}
+.Memory{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:60px;
+	margin-top:5px;
+	height:35px;
+	width:183px;
+	border:1px solid white;
+	background:#fffbf2;
+	padding-left:5px;
+	padding-right:7px;
+	border-radius:7px;
+	margin-bottom:2px;
+	
+	
+}
+.mem h3{
+	color:#efb25d;
+	gap:6.5px;
+}
+#v61{
+	color:black;
+}
+.vscore h3{
+	color:#999596;
+	font-size:14px;
+	gap:6px;
+}
+
+.Verbal{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:73px;
+	border:1px solid white;
+	background:#f2fbfa;
+	height:35px;
+	width:183px;
+	border-radius:7px;
+	text-align:left;
+	padding-left:7px;
+	padding-right:7px;
+	margin-top:5px;
+	margin-bottom:2px;
+	
+}
+.ver h3{
+	color:hsl(166, 100%, 37%);
+		display:flex;
+	align-items:center;
+gap:6px;
+}
+#v72{
+	color:black;
+}
+.sscore h3{
+	color:#999596;
+	font-size:14px;
+}
+
+.Visual{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:73px;
+	border:1px solid white;
+	background:#f3f3fd;
+	height:35px;
+	border-radius:7px;
+	text-align:left;
+	padding-left:7px;
+	padding-right:7px;
+	width:183px;
+	margin-top:5px;
+	margin-bottom:2px;
+}
+.visu h3{
+	color:hsl(234, 85%, 45%);
+		display:flex;
+	align-items:center;
+gap:6px;
+}
+.btn{
+	height:34px;
+	background:#303b59;
+	color:white;
+	width:178px;
+	border:1px solid white;
+	border-radius:30px;
+	cursor:pointer;
+	margin-top:21px;
+	font-size:12px;
+}
+.box1 h3{
+font-size:15px;}
+.box1 p{
+	font-size:10.5px;
+	color:hsl(241, 100%, 89%);
+	width:145px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.btn:hover{
+	transition:0.3s;
+background:#4a24cd;}
